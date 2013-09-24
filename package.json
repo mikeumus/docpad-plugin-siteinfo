@@ -1,27 +1,27 @@
 {
-	"name": "docpad-plugin-yourpluginname",
+	"name": "docpad-plugin-siteinfo",
 	"version": "2.0.0",
-	"description": "DocPad plugin that adds the ability to render Something to Something Else",
-	"homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+	"description": "A semantically charged page with info about the website.",
+	"homepage": "https://github.com/mikeumus/docpad-plugin-siteinfo",
 	"keywords": [
 		"docpad",
 		"docpad-plugin",
 		"something",
 		"somethingelse"
 	],
-	"author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+	"author": "MDM <mike@mdm.cm> (http://mdm.cm/)",
 	"maintainers": [
-		"Your name <your email> (your github url)"
+		"Mikeumus <mike@mdm.cm> (http://github.com/mikeumus)"
 	],
 	"contributors": [
-		"Your name <your email> (your github url)"
+		"Michael Mooring <mike@mdm.cm> (http://github.com/mikeumus)"
 	],
 	"bugs": {
-		"url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+		"url": "https://github.com/mikeumus/docpad-plugin-siteinfo/issues"
 	},
 	"repository" : {
 		"type": "git",
-		"url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+		"url": "https://github.com/mikeumus/docpad-plugin-siteinfo.git"
 	},
 	"engines" : {
 		"node": ">=0.8"
@@ -33,8 +33,8 @@
 	"devDependencies": {
 		"coffee-script": "~1.6.3"
 	},
-	"main": "./out/yourpluginname.plugin.js",
+	"main": "./out/siteinfo.plugin.js",
 	"scripts": {
-		"test": "node ./out/yourpluginname.test.js"
+		"test": "node ./out/siteinfo.test.js"
 	}
 }
